@@ -1,5 +1,10 @@
 Реализация карточки товара «Ананасовый улун».
 
+## Screenshot
+![](./assets/screenshots/screenshot.png)
+
+🔗 Live Demo: https://tatiana-golub.github.io/product-page/
+
 ## Features
 
 * Адаптивная верстка для desktop, tablet и mobile
