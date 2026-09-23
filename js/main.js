@@ -60,3 +60,4 @@ weightButtons.forEach((button) => {
 });
 
 selectOption(100);
+

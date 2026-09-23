@@ -34,7 +34,9 @@
                 <div class="product-container">
                     <div class="product-main">
                         <div class="image-wrapper">
-                            <img class="product-image" src="./assets/Ананасовый__улун.jpg" alt="Ананасовый улун">
+                            <button class="image-zoom" type="button" aria-label="Увеличить изображение">
+                                <img class="product-image" src="./assets/Ананасовый__улун.jpg" alt="Ананасовый улун">
+                            </button>
                         </div>
                         <div class="product-info">
                             <section class="product-options" aria-labelledby="weight-title">
@@ -110,7 +112,13 @@
 
         </div>
     </main>
-    <script type="module" src="main.js"></script>
+    <dialog class="lightbox" id="lightbox" aria-label="Просмотр изображения">
+        <button class="lightbox-close" type="button" aria-label="Закрыть">&times;</button>
+        <img class="lightbox-image" src="" alt="">
+        <h3 class="lightbox-title">Ананасовый улун</h3>
+    </dialog>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/lightbox.js"></script>
 </body>
 
 </html>
